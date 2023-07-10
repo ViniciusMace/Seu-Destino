@@ -3,7 +3,11 @@
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="shortcut icon" href="./image/Favicon.svg" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assets/image/Favicon.svg"
+      type="image/x-icon"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Seu Destino</title>
@@ -14,35 +18,41 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <div id="main">
+    <div class="page">
+      <main>
         <img
-          src="./image/img1.svg"
+          src="./assets/image/img1.svg"
           alt="Desenho de uma pessoa segurando o mundo e vários pontos de localização de gps espalhados por todo ele"
         />
         <h1>O seu próximo <span>destino</span> pode estar aqui...</h1>
-        <p class="p-1-main">
-          Aqui você encontra uma seleção de <span>pacotes completos</span>
-          para as suas férias!
-          <br />
-          <br />
-          Na <strong>Flutuar</strong> você encontra pacotes de viagens nacionais
-          e internacionais que incluem: passagens aéreas, hotéis, café da manhã,
-          e até seguro
-          <span>viagem com preços arrasadores!</span>
-        </p>
-        <p>
-          Se você ainda não tem um destino definido, confira nossa seção de
-          ofertas.
-        </p>
-      </div>
-      <div id="footer">
+
+        <div class="text-wrapper">
+          <p>
+            Aqui você encontra uma seleção de <span>pacotes completos</span>
+            para as suas férias!
+          </p>
+
+          <p>
+            Na <strong>Flutuar</strong> você encontra pacotes de viagens
+            nacionais e internacionais que incluem: passagens aéreas, hotéis,
+            café da manhã, e até seguro
+            <span>viagem com preços arrasadores!</span>
+          </p>
+
+          <p>
+            Se você ainda não tem um destino definido, confira nossa seção de
+            ofertas.
+          </p>
+        </div>
+      </main>
+      <footer>
         <div class="line"></div>
-        <a href="#">Destinos</a>
-        <a href="#">Ofertas</a>
-        <a href="#">Contato</a>
-      </div>
-      <div id="wave">
-        <img src="./image/Wave.svg" alt="onda roxa" />
-      </div>
+        <div class="link-wrapper">
+          <a href="#">Destinos</a>
+          <a href="#">Ofertas</a>
+          <a href="#">Contato</a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
